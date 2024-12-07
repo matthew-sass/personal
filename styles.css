@@ -8,12 +8,17 @@ body {
   width: 100%;
   margin: 0 auto;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #f0f0f0;
+  background-color: #303446 ;
 }
 
 h1 {
   font-size: 56px;
   margin-bottom: -30px;
+  color:#ca9ee6;
+}
+
+h6 {
+  color:#ca9ee6;
 }
 
 .underlinedButtons {
@@ -25,21 +30,21 @@ h1 {
 }
 
 .underlined {
-  color: rgb(97, 46, 248);
+  color: #8aadf4;
 }
 
 button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  color: black;
-  background-color: #f0f0f0;
+  color: #f5f5f5;
+  background-color: #303446;
   border: none;
   z-index: 1;
 }
 
 button:hover {
-  color: rgb(97, 46, 248);
+  color: #8aadf4;
 }
 
 .underlinedButtons button::before {
@@ -49,7 +54,7 @@ button:hover {
   left: var(--underline-left, 0); 
   width: var(--underline-width, 0); 
   height: 3px;
-  background-color: rgb(97, 46, 248);
+  background-color: #8aadf4;
   transition: width 0.3s ease, left 0.3s ease; 
   z-index: -1;
 }
@@ -57,7 +62,7 @@ button:hover {
 .contentBox p {
   padding: 3px;
   font-size: 18px;
-  color: #333;
+  color: #cad3f5;
   margin: 0;
 }
 
@@ -87,16 +92,17 @@ button:hover {
   gap: 5px; 
   margin: 5px;
   padding: 10px;
-  border: 0px solid rgb(97, 46, 248);
+  color:#cad3f5;
+  border: 0px solid #ca9ee6;
   border-radius: 40px;
 }
 
 .social-links a:hover {
-  background-color: lightgrey;
+  background-color: #4b516d;
 }
 
 .social-links span {
-  color: black;
+  color: #cad3f5;
   text-decoration: none;
 }
 
