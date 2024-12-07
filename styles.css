@@ -37,7 +37,7 @@ button {
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
-  color: #f5f5f5;
+  color: #cad3f5;
   background-color: #303446;
   border: none;
   z-index: 1;
@@ -92,18 +92,17 @@ button:hover {
   gap: 5px; 
   margin: 5px;
   padding: 10px;
-  color:#cad3f5;
+  filter: invert(100%) brightness(80%);
   border: 0px solid #ca9ee6;
   border-radius: 40px;
 }
 
-.social-links a:hover {
-  background-color: #4b516d;
+.social-links span {
+  color: black;
 }
 
-.social-links span {
-  color: #cad3f5;
-  text-decoration: none;
+.social-links a:hover {
+  background-color: #4b516d;
 }
 
 .social-links a:focus,
